@@ -17,24 +17,29 @@
 </head>
 
 <body>
-  <header class="bg-amber-100 mb-10 px-10">
-    <!-- navbar section -->
 
-    <nav class="flex justify-around">
-      <img class="w-48 h-7" src="icons/logo.png" alt="" />
+  <header class=" bg-amber-100 pt-10 pb-10 mb-20 px-8 sm:px-16 lg:px-24">
+    <!-- navbar section----------------------------------------------------------------------------- -->
+
+    <nav class="max-w-5xl my-0 mx-auto flex justify-between gap-7 flex-col sm:flex-row ">
+
+      <div class="w-48 ml-16 sm:ml-0">
+        <img class="w-full" src="icons/logo.png" alt="" />
+      </div>
 
       <div
-        class="flex flex-col md:flex-row justify-around gap-8 list-none font-['Roboto'] text-base text-[#3C3C3C] font-medium">
+        class="flex justify-around items-center gap-8 flex-col md:flex-row  list-none font-['Roboto'] text-base text-[#3C3C3C] font-medium mb-10">
         <li><a href="#"></a>Home</li>
         <li><a href="#"></a>About Us</li>
         <li><a href="#"></a>Contact Us</li>
         <li><a href="#"></a>Product</li>
       </div>
+
     </nav>
 
-    <!-- banner section -->
+    <!-- banner section ----------------------------------------------------------------------------->
 
-    <div class="flex flex-col md:flex-row justify-around items-center">
+    <div class="max-w-5xl my-0 mx-auto flex flex-col md:flex-row justify-around items-center">
       <div class="space-y-3">
         <h1 class="text-7xl font-normal font-['Bebas_Neue']">
           <span class="text-[#FABE4C]">Be the Penguins</span> <br />
@@ -55,19 +60,20 @@
         <img src="images/model.png" alt="" />
       </div>
     </div>
+
   </header>
 
   <main>
 
 
-    <!-- Woman Section -->
+    <!-- Woman Section --------------------------------------------------------------------->
 
-    <section class="max-w-5xl mx-auto">
-      <h1 class="text-[#363958] font-['Bebas_Neue'] text-4xl font-normal mb-4">
+    <section class="max-w-5xl mx-auto px-8 sm:px-16 lg:px-24 mb-20">
+      <h1 class="text-[#363958] font-['Bebas_Neue'] text-4xl text-center font-normal mb-4">
         WOMAN JACKET
       </h1>
 
-      <div class="font-['Roboto'] grid grid-rows-3 md:grid-cols-3 gap-7">
+      <div class="font-['Roboto'] grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         <!-- jacket 1 -->
 
         <div class="space-y-3 bg-[#FFF] rounded-3xl shadow-[0px_10px_30px_0px_rgba(0, 0, 0, 0.05)]">
@@ -138,16 +144,16 @@
       </div>
     </section>
 
-    <!-- man section -->
+    <!-- man section--------------------------------------------------------------------->
 
-    <section class="max-w-5xl mx-auto">
-      <h1 class="text-[#363958] text-4xl font-normal">
+    <section class="max-w-5xl mx-auto px-8 sm:px-16 lg:px-24 mb-20">
+      <h1 class="text-[#363958] font-['Bebas_Neue'] text-4xl text-center font-normal mb-4">
         Man Jacket
       </h1>
 
       <!-- man jacket container -->
 
-      <div class="font-['Roboto'] grid grid-rows-3 md:grid-cols-3 gap-7">
+      <div class="font-['Roboto'] grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <!-- jacket 4 -->
 
         <div class="space-y-3 bg-[#FFF] rounded-3xl shadow-[0px_10px_30px_0px_rgba(0, 0, 0, 0.05)]">
@@ -223,9 +229,12 @@
 
   <!-- footer section -->
 
-  <footer class="max-w-5xl mx-auto font-['Roboto'] mb-5">
-    <div class="flex flex-col gap-5 md:flex-row justify-around">
-      <div class="grid grid-rows-3">
+  <footer class="max-w-5xl mx-auto font-['Roboto'] mb-20 px-8 sm:px-16 lg:px-24">
+
+    <div class="flex flex-col lg:flex-row gap-7 justify-around">
+
+      <div class="grid gap-7 grid-cols-1">
+
         <div class="flex gap-7 items-center">
           <img class="w-16" src="icons/house.png" alt="" />
           <div class="">
@@ -264,7 +273,10 @@
         </div>
       </div>
 
-      <img class="w-1/2" src="images/shopping.png" alt="" />
+      <div class="max-w-lg">
+        <img class="w-full" src="images/shopping.png" alt="" />
+      </div>
+
     </div>
   </footer>
 </body>
